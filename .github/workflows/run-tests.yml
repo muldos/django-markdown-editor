@@ -1,12 +1,7 @@
 name: Run tests
 
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+  workflow_dispatch:
 
 # https://docs.djangoproject.com/en/dev/faq/install/#what-python-version-can-i-use-with-django
 jobs:
